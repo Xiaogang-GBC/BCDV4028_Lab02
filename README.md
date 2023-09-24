@@ -1,10 +1,10 @@
 # BCDV4028_Lab02
-**Ethereum Contract Delegate Call Demo **
+**Ethereum Contract Delegate Call Demo**
 
-This repo demonstrates a delegate call between two contracts:
+**This repo demonstrates a delegate call between two contracts:**
 
-Calling Contract: Calls the "Called Contract".
-Called Contract: Has an orderStatus variable.
+- Calling Contract: Calls the "Called Contract".
+- Called Contract: Has an orderStatus variable.
 
 **Result:**
 - orderStatus remains unchanged in "Called Contract".
