@@ -12,7 +12,7 @@ contract CarContract {
     // state variable for storing order status
     Status public orderStatus;
 
-    // function to perform external call to update the order status in this contract
+    // function to perform delegate call to update the order status in this contract
     // passing a enum value to called contract 
     function set(address _calledAddress) external {
         (bool success, bytes memory returndata) = _calledAddress.delegatecall(
